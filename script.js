@@ -806,8 +806,8 @@ if (input.startsWith("extension://")) {
 }
 
 
-if (input.startsWith("zinc://")) {
-    const target = input.slice("zinc://".length).trim();
+if (input.startsWith("internal://")) {
+    const target = input.slice("internal://".length).trim();
     if (!target) return;
 
     const internalUrl = `internal/${target}.html`;
