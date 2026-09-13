@@ -472,10 +472,10 @@ async function initializeBrowser() {
     <i class="fa-solid fa-info"></i> About <small>internal://about</small>
 </button>
 <hr>
-<button onclick="window.open('https://github.com/0800WebDev/zinc/', '_blank')" title="github repository">
+<button onclick="window.open('https://github.com/NotReallyRx/proxy/', '_blank')" title="github repository">
         <i class="fa-brands fa-github"></i> Github 
         </button>
-        <button onclick="window.open('https://github.com/0800WebDev/zinc/issues/new', '_blank')" title="issue">
+        <button onclick="window.open('https://github.com/NotReallyRx/proxy/issues/new', '_blank')" title="issue">
            <i class="fa-solid fa-bug"></i> Issue 
         </button>
     </div>
