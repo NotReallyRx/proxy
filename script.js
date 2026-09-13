@@ -810,7 +810,7 @@ if (input.startsWith("internal://")) {
     const target = input.slice("internal://".length).trim();
     if (!target) return;
 
-    const internalUrl = `internal/${target}.html`;
+    const internalUrl = `i/${target}.html`;
 
     tab.loading = true;
     showIframeLoading(true, internalUrl);
