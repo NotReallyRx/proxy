@@ -460,16 +460,16 @@ async function initializeBrowser() {
             <i class="fa-solid fa-gear"></i>Settings
         </button>
 <hr>
- <button onclick='handleSubmit("zinc://extensions"); document.getElementById("tools-menu").style.display = "none";'>
-    <i class="fa-solid fa-plus"></i> Extensions <small>zinc://extensions</small>
+ <button onclick='handleSubmit("internal://extensions"); document.getElementById("tools-menu").style.display = "none";'>
+    <i class="fa-solid fa-plus"></i> Extensions <small>internal://extensions</small>
 </button>
 
-        <button onclick='handleSubmit("zinc://urls"); document.getElementById("tools-menu").style.display = "none";'>
-    <i class="fa-solid fa-link"></i> URLs <small>zinc://urls</small>
+        <button onclick='handleSubmit("internal://urls"); document.getElementById("tools-menu").style.display = "none";'>
+    <i class="fa-solid fa-link"></i> URLs <small>internal://urls</small>
 </button>
 
-<button onclick='handleSubmit("zinc://about"); document.getElementById("tools-menu").style.display = "none";'>
-    <i class="fa-solid fa-info"></i> About <small>zinc://about</small>
+<button onclick='handleSubmit("internal://about"); document.getElementById("tools-menu").style.display = "none";'>
+    <i class="fa-solid fa-info"></i> About <small>internal://about</small>
 </button>
 <hr>
 <button onclick="window.open('https://github.com/0800WebDev/zinc/', '_blank')" title="github repository">
