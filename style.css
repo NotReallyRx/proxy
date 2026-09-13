@@ -1829,7 +1829,7 @@ transition:
 
 
 background:
-    var(--accent);
+    #222121';
 
 
 }
@@ -1841,7 +1841,7 @@ width: 16px;
 
 height: 16px;
 
-background: white;
+background: #999999;
 
 border-radius: 50%;
 
